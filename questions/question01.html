@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+</head>
+<body>
+    <script>
+          //number:
+        let n1 = 4;
+        let n2 = 2;
+        console.log(`(Number) A divisão dos dois valores é: ${n1 / n2}`);
+        
+        //null:
+        let a = null;
+        console.log(`(Null) O valor da variavel é: ${a}`);
+
+        ///string:
+        let nome = 'Gabriel Duarte';
+        console.log(`(String) ${nome}`);
+      
+        //boolean:
+        
+        console.log("(Boolean)");
+
+        let numeroBoolean=5;
+      
+        if (numeroBooelan=5) {
+          console.log(true)
+        } else {
+          console.log(false)
+        };
+
+        //bigInt:
+        let maior = BigInt(Number.MAX_SAFE_INTEGER);
+        console.log("(BigInt)");
+        console.log(maior);
+      
+        //undefined:
+        let jogo = {
+          tipo: 'RPG',
+          plataforme: 'PC',
+          EspecJogo: () => {
+            return `${this.tipo} ${this.plataforma}`
+          }
+        }
+        console.log("(Undefined)");
+        console.log(jogo.EspecJogo());
+
+        //symbol:
+
+        let simbolo= Symbol();
+        console.log("(Symbol)");
+        console.log(simbolo);
+      
+        //objects:
+        let object = {
+          nome: 'Gabriel',
+          idade: '22',
+          cidade: 'Belém',
+          estado:'Pará'
+        }
+        console.log("(Objects)")
+       console.log(object);
+        </script>
+</body>
+</html>
